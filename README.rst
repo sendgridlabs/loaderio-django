@@ -25,7 +25,7 @@ Installation
 
 3. Update your database schema with the new models::
 
-   python manage.py syncdb
+        python manage.py syncdb
 
 Usage
 -----
