@@ -17,6 +17,6 @@ Quickstart
 
     url('^$', include('loaderio.urls'))
 
-3. Run `python manage.py migrate` to create the loaderio models.
+3. Run `python manage.py syncdb` to create the loaderio models.
 
 4. Visit /admin/loaderio to add loader.io validation tokens.
