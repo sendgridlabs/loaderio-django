@@ -23,8 +23,9 @@ Installation
 
     url('^$', include('loaderio.urls'))
 
-3. Run `python manage.py syncdb` to create the loaderio models.
+3. Update your database schema with the new models::
 
+   python manage.py syncdb
 
 Usage
 -----
