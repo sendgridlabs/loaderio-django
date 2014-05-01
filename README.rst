@@ -12,14 +12,14 @@ interface.
 Installation
 ------------
 
-1. Add "loaderio" to your INSTALLED_APPS setting like this::
+1. Add "loaderio" to your INSTALLED_APPS in your Django settings::
 
     INSTALLED_APPS = (
         ...
         'loaderio',
     )
 
-2. Include the loaderio URLconf in your project urls.py like this::
+2. Include the loaderio URLconf in your project urls.py::
 
     url('^$', include('loaderio.urls'))
 
