@@ -16,6 +16,7 @@ setup(
     long_description=README,
     author='Lorin Hochstein',
     author_email='lorin.hochstein@sendgrid.com',
+    url='https://github.com/sendgridlabs/loaderio-django',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
