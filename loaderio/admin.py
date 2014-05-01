@@ -3,6 +3,6 @@ from loaderio.models import Validation
 
 
 class ValidationAdmin(admin.ModelAdmin):
-    fields = ['token']
+    fields = ['token', 'enabled']
 
 admin.site.register(Validation, ValidationAdmin)
