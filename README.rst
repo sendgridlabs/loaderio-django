@@ -30,8 +30,8 @@ Installation
 Usage
 -----
 
-Once installed, the admin interface will have a `Loaderio` section with
-`Validation` models. Add a new validation model and specify your
+Once installed, the admin interface will have a *Loaderio* section with
+*Validation* models. Add a new validation model and specify your
 loader.io token (e.g., ``loaderio-28016b04fdb0ed4ea066ecec5a19c1ad``).
 
 That's all you need to do. Your Django site should now respond to requests
